@@ -12,6 +12,14 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
+app.get("/lemon", (req, res) => {
+    res.status(301).redirect("https://discord.gg/lemonclient")
+})
+
+app.get("/discord", (req, res) => {
+    res.status(301).redirect("https://discord.gg/groszus")
+})
+
 app.use('/', router);
 app.listen(3000);
 
