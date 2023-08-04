@@ -13,7 +13,11 @@ app.get('/', function (req, res) {
 });
 
 app.get("/lemon", (req, res) => {
-    res.status(301).redirect("https://discord.gg/lemonclient")
+    res.status(301).redirect("https://discord.gg/j4cZTzxR4M")
+})
+
+app.get("/nova", (req, res) => {
+    res.status(301).redirect("https://discord.gg/DTxNMhcyCg")
 })
 
 app.get("/discord", (req, res) => {
